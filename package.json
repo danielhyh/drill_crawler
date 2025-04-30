@@ -1,0 +1,23 @@
+{
+  "name": "drill_crawler",
+  "version": "1.0.0",
+  "description": "台湾地质钻孔数据批量下载工具",
+  "main": "drill_crawler.js",
+  "scripts": {
+    "start": "node drill_crawler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "iconv-lite": "^0.6.3",
+    "playwright": "^1.52.0",
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
